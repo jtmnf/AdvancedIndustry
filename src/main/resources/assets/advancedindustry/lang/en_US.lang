@@ -1,0 +1,29 @@
+itemGroup.advancedIndustryTab=Advanced Industry
+
+item.ingotCopper.name=Copper Ingot
+item.ingotTin.name=Tin Ingot
+item.dustCopper.name=Copper Dust
+item.dustTin.name=Tin Dust
+item.dustGold.name=Gold Dust
+item.dustIron.name=Iron Dust
+item.dustDiamond.name=Diamond Dust
+item.dustCoal.name=Coal Dust
+
+item.pickaxeCopper.name=Copper Pickaxe
+item.pickaxeTin.name=Tin Pickaxe
+item.axeCopper.name=Copper Axe
+item.axeTin.name=Tin Axe
+item.shovelCopper.name=Copper Shovel
+item.shovelTin.name=Tin Shovel
+item.hoeCopper.name=Copper Hoe
+item.hoeTin.name=Tin Hoe
+item.swordCopper.name=Copper Sword
+item.swordTin.name=Tin Sword
+
+item.wrench.name=Wrench
+
+tile.oreCopper.name=Copper Ore
+tile.oreTin.name=Tin Ore
+
+tile.blockCopper.name=Copper Block
+tile.blockTin.name=Tin Block

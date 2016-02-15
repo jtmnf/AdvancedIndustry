@@ -1,0 +1,1321 @@
+[18:03:27] [main/INFO]: Extra: []
+[18:03:27] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/jtmnf/.gradle/caches/minecraft/assets, --assetIndex, 1.8, --accessToken{REDACTED}, --version, 1.8.9, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[18:03:27] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:03:27] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:03:27] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[18:03:27] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:03:27] [main/INFO]: Forge Mod Loader version 11.15.1.1731 for Minecraft 1.8.9 loading
+[18:03:27] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_66, running on Windows 10:amd64:10.0, installed at D:\Program Files\Java\jdk1.8.0_66\jre
+[18:03:27] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[18:03:27] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[18:03:27] [main/INFO]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[18:03:27] [main/INFO]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[18:03:27] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:03:27] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[18:03:27] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[18:03:27] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:03:27] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:03:27] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:03:27] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[18:03:28] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[18:03:28] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:03:28] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[18:03:29] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[18:03:29] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[18:03:29] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[18:03:29] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[18:03:31] [Client thread/INFO]: Setting user: Player259
+[18:03:33] [Client thread/INFO]: LWJGL Version: 2.9.4
+[18:03:34] [Client thread/WARN]: =============================================================
+[18:03:34] [Client thread/WARN]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
+[18:03:34] [Client thread/WARN]: Offendor: com/sun/jna/Native.main([Ljava/lang/String;)V
+[18:03:34] [Client thread/WARN]: Use FMLCommonHandler.exitJava instead
+[18:03:34] [Client thread/WARN]: =============================================================
+[18:03:34] [Client thread/INFO]: [net.minecraftforge.fml.client.SplashProgress:start:246]: ---- Minecraft Crash Report ----
+// Surprise! Haha. Well, this is awkward.
+
+Time: 09-02-2016 18:03
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.9
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_66, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 497906440 bytes (474 MB) / 598212608 bytes (570 MB) up to 3795845120 bytes (3620 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'Intel' Version: '4.3.0 - Build 10.18.15.4268' Renderer: 'Intel(R) HD Graphics 530'
+[18:03:34] [Client thread/INFO]: MinecraftForge v11.15.1.1731 Initialized
+[18:03:34] [Client thread/INFO]: Replaced 204 ore recipies
+[18:03:35] [Client thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
+[18:03:35] [Client thread/INFO]: Searching C:\Users\jtmnf\IdeaProjects\AdvancedIndustry\run\mods for mods
+[18:03:37] [Client thread/INFO]: Forge Mod Loader has identified 4 mods to load
+[18:03:37] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, advancedindustry] at CLIENT
+[18:03:37] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, advancedindustry] at SERVER
+[18:03:37] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:AdvancedIndustry
+[18:03:37] [Client thread/INFO]: Processing ObjectHolder annotations
+[18:03:37] [Client thread/INFO]: Found 384 ObjectHolder annotations
+[18:03:37] [Client thread/INFO]: Identifying ItemStackHolder annotations
+[18:03:37] [Client thread/INFO]: Found 0 ItemStackHolder annotations
+[18:03:37] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[18:03:37] [Forge Version Check/INFO]: [Forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[18:03:37] [Client thread/INFO]: Applying holder lookups
+[18:03:37] [Client thread/INFO]: Holder lookups applied
+[18:03:37] [Client thread/INFO]: Injecting itemstacks
+[18:03:37] [Client thread/INFO]: Itemstack injection complete
+[18:03:38] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[18:03:38] [Forge Version Check/INFO]: [Forge] Found status: OUTDATED Target: 11.15.1.1736
+[18:03:38] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[18:03:38] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[18:03:38] [Thread-9/INFO]: OpenAL initialized.
+[18:03:38] [Sound Library Loader/INFO]: Sound engine started
+[18:03:42] [Client thread/INFO]: Max texture size: 16384
+[18:03:42] [Client thread/INFO]: Created: 16x16 textures-atlas
+[18:03:43] [Client thread/INFO]: Injecting itemstacks
+[18:03:43] [Client thread/INFO]: Itemstack injection complete
+[18:03:43] [Client thread/INFO]: Forge Mod Loader has successfully loaded 4 mods
+[18:03:43] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:AdvancedIndustry
+[18:03:43] [Client thread/INFO]: SoundSystem shutting down...
+[18:03:43] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[18:03:43] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[18:03:44] [Thread-11/INFO]: Initializing LWJGL OpenAL
+[18:03:44] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[18:03:44] [Thread-11/INFO]: OpenAL initialized.
+[18:03:44] [Sound Library Loader/INFO]: Sound engine started
+[18:03:47] [Client thread/INFO]: Max texture size: 16384
+[18:03:47] [Client thread/INFO]: Created: 512x512 textures-atlas
+[18:03:48] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[18:03:54] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[18:03:54] [Server thread/INFO]: Starting integrated minecraft server version 1.8.9
+[18:03:54] [Server thread/INFO]: Generating keypair
+[18:03:54] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[18:03:54] [Server thread/INFO]: Applying holder lookups
+[18:03:54] [Server thread/INFO]: Holder lookups applied
+[18:03:54] [Server thread/INFO]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@7d52cd85)
+[18:03:54] [Server thread/INFO]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@7d52cd85)
+[18:03:54] [Server thread/INFO]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@7d52cd85)
+[18:03:54] [Server thread/INFO]: Preparing start region for level 0
+[18:03:55] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:113]: NEW 2
+[18:03:55] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:122]: NEW 3
+[18:03:55] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:104]: NEW 1
+[18:03:55] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:113]: NEW 2
+[18:03:55] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:131]: NEW 4
+[18:03:55] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:113]: NEW 2
+[18:03:55] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:131]: NEW 4
+[18:03:55] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:104]: NEW 1
+[18:03:55] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:122]: NEW 3
+[18:03:55] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:122]: NEW 3
+[18:03:55] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:104]: NEW 1
+[18:03:55] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:113]: NEW 2
+[18:03:55] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:122]: NEW 3
+[18:03:55] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:131]: NEW 4
+[18:03:55] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:104]: NEW 1
+[18:03:55] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:131]: NEW 4
+[18:03:55] [Server thread/INFO]: Changing view distance to 12, from 10
+[18:03:55] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[18:03:55] [Netty Local Client IO #0/INFO]: Server protocol version 2
+[18:03:55] [Netty Server IO #1/INFO]: Client protocol version 2
+[18:03:55] [Netty Server IO #1/INFO]: Client attempting to join with 4 mods : FML@8.0.99.99,Forge@11.15.1.1731,advancedindustry@1.0.0,mcp@9.19
+[18:03:55] [Netty Local Client IO #0/INFO]: [Netty Local Client IO #0] Client side modded connection established
+[18:03:55] [Server thread/INFO]: [Server thread] Server side modded connection established
+[18:03:56] [Server thread/INFO]: Player259[local:E:42e43e2a] logged in with entity id 46 at (-785.7231947176592, 5.0, 77.10871461239512)
+[18:03:56] [Server thread/INFO]: Player259 joined the game
+[18:03:57] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@5a426e3b[id=e342fe1d-63b8-357f-8114-7490b4ce5aed,name=Player259,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:65) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:175) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:59) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:56) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3934) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827) [guava-17.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:165) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.func_181037_M(Minecraft.java:2915) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:130) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_66]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[18:03:57] [Client thread/INFO]: [CHAT] Energy Stored: 722 E
+[18:03:57] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:03:57] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=77}
+[18:03:57] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:03:57] [Client thread/INFO]: [CHAT] Energy Stored: 722 E
+[18:03:57] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:03:57] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=77}
+[18:03:57] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:03:58] [Client thread/INFO]: [CHAT] Energy Stored: 722 E
+[18:03:58] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:03:58] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=77}
+[18:03:58] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:03:58] [Client thread/INFO]: [CHAT] Energy Stored: 722 E
+[18:03:58] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:03:58] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=77}
+[18:03:58] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:03:58] [Client thread/INFO]: [CHAT] Energy Stored: 722 E
+[18:03:58] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:03:58] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=77}
+[18:03:58] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:03:58] [Client thread/INFO]: [CHAT] Energy Stored: 3 E
+[18:03:58] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:03:58] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=78}
+[18:03:58] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:03:58] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:03:59] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:03:59] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:03:59] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:03:59] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:03:59] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:03:59] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:00] [Client thread/INFO]: [CHAT] Energy Stored: 18136 E
+[18:04:00] [Client thread/INFO]: [CHAT] Energy Stored: 18836 E
+[18:04:00] [Client thread/INFO]: [CHAT] Energy Stored: 19536 E
+[18:04:00] [Client thread/INFO]: [CHAT] Energy Stored: 20411 E
+[18:04:00] [Client thread/INFO]: [CHAT] Energy Stored: 21111 E
+[18:04:01] [Client thread/INFO]: [CHAT] Energy Stored: 21986 E
+[18:04:01] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:01] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:01] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:01] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:01] [Client thread/INFO]: [CHAT] Energy Stored: 3 E
+[18:04:01] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:04:01] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=78}
+[18:04:01] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:04:01] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:04:02] [Client thread/INFO]: [CHAT] Energy Stored: 722 E
+[18:04:02] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:04:02] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=77}
+[18:04:02] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:02] [Client thread/INFO]: [CHAT] Energy Stored: 722 E
+[18:04:02] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:04:02] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=77}
+[18:04:02] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:02] [Client thread/INFO]: [CHAT] Energy Stored: 722 E
+[18:04:02] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:04:02] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=77}
+[18:04:02] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:02] [Client thread/INFO]: [CHAT] Energy Stored: 722 E
+[18:04:02] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:04:02] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=77}
+[18:04:02] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:02] [Client thread/INFO]: [CHAT] Energy Stored: 722 E
+[18:04:02] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:04:02] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=77}
+[18:04:02] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:03] [Client thread/INFO]: [CHAT] Energy Stored: 722 E
+[18:04:03] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:04:03] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=77}
+[18:04:03] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:03] [Client thread/INFO]: [CHAT] Energy Stored: 722 E
+[18:04:03] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:04:03] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=77}
+[18:04:03] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:03] [Client thread/INFO]: [CHAT] Energy Stored: 722 E
+[18:04:03] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:04:03] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=77}
+[18:04:03] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:03] [Client thread/INFO]: [CHAT] Energy Stored: 1 E
+[18:04:03] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:04:03] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:04:03] [Client thread/INFO]: [CHAT] Energy Stored: 1 E
+[18:04:03] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:04:03] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:04:04] [Client thread/INFO]: [CHAT] Energy Stored: 1 E
+[18:04:04] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:04:04] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:04:04] [Client thread/INFO]: [CHAT] Energy Stored: 461 E
+[18:04:04] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:04] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:04:04] [Client thread/INFO]: [CHAT] Energy Stored: 461 E
+[18:04:04] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:04] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:04:04] [Client thread/INFO]: [CHAT] Energy Stored: 461 E
+[18:04:04] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:04] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:04:04] [Client thread/INFO]: [CHAT] Energy Stored: 461 E
+[18:04:04] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:04] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:04:05] [Client thread/INFO]: [CHAT] Energy Stored: 461 E
+[18:04:05] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:05] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:04:05] [Client thread/INFO]: [CHAT] Energy Stored: 461 E
+[18:04:05] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:05] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:04:05] [Client thread/INFO]: [CHAT] Energy Stored: 3 E
+[18:04:05] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:04:05] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=78}
+[18:04:05] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:04:05] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:04:05] [Client thread/INFO]: [CHAT] Energy Stored: 3 E
+[18:04:05] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:04:05] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=78}
+[18:04:05] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:04:05] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:04:05] [Client thread/INFO]: [CHAT] Energy Stored: 3 E
+[18:04:05] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:04:05] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=78}
+[18:04:05] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:04:05] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:04:06] [Client thread/INFO]: [CHAT] Energy Stored: 461 E
+[18:04:06] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:06] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=77}
+[18:04:06] [Client thread/INFO]: [CHAT] Energy Stored: 461 E
+[18:04:06] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:06] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=77}
+[18:04:06] [Client thread/INFO]: [CHAT] Energy Stored: 461 E
+[18:04:06] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:06] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=77}
+[18:04:06] [Client thread/INFO]: [CHAT] Energy Stored: 461 E
+[18:04:06] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:06] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=77}
+[18:04:06] [Client thread/INFO]: [CHAT] Energy Stored: 26 E
+[18:04:06] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:04:06] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=78}
+[18:04:07] [Client thread/INFO]: [CHAT] Energy Stored: 26 E
+[18:04:07] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:04:07] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=78}
+[18:04:07] [Client thread/INFO]: [CHAT] Energy Stored: 26 E
+[18:04:07] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:04:07] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=78}
+[18:04:07] [Client thread/INFO]: [CHAT] Energy Stored: 26 E
+[18:04:07] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:04:07] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=78}
+[18:04:08] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:update:72]: Why?
+[18:04:08] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:update:72]: Why?
+[18:04:08] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:104]: NEW 1
+[18:04:08] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:113]: NEW 2
+[18:04:08] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:update:72]: Why?
+[18:04:08] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:113]: NEW 2
+[18:04:09] [Client thread/INFO]: [CHAT] Energy Stored: 46136 E
+[18:04:09] [Client thread/INFO]: [CHAT] Energy Stored: 46136 E
+[18:04:09] [Client thread/INFO]: [CHAT] Energy Stored: 46136 E
+[18:04:10] [Client thread/INFO]: [CHAT] Energy Stored: 46136 E
+[18:04:10] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:10] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:10] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:11] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:update:72]: Why?
+[18:04:11] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:104]: NEW 1
+[18:04:12] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:update:72]: Why?
+[18:04:17] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:131]: NEW 4
+[18:04:17] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:122]: NEW 3
+[18:04:17] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:131]: NEW 4
+[18:04:17] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:122]: NEW 3
+[18:04:18] [Client thread/INFO]: [CHAT] Energy Stored: 46136 E
+[18:04:18] [Client thread/INFO]: [CHAT] Energy Stored: 46136 E
+[18:04:18] [Client thread/INFO]: [CHAT] Energy Stored: 46136 E
+[18:04:18] [Client thread/INFO]: [CHAT] Energy Stored: 46136 E
+[18:04:19] [Client thread/INFO]: [CHAT] Energy Stored: 46136 E
+[18:04:19] [Client thread/INFO]: [CHAT] Energy Stored: 46136 E
+[18:04:19] [Client thread/INFO]: [CHAT] Energy Stored: 46136 E
+[18:04:19] [Client thread/INFO]: [CHAT] Energy Stored: 46136 E
+[18:04:19] [Client thread/INFO]: [CHAT] Energy Stored: 46136 E
+[18:04:20] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:20] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:20] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:20] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:20] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:20] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:20] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:20] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:04:20] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:04:20] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:20] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:04:20] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:04:21] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:04:21] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:21] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:04:21] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:21] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:04:21] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:21] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:04:21] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:21] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:04:21] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:22] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:22] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:04:22] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:04:22] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:22] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:04:22] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:04:22] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:22] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:04:22] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:04:22] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:22] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:04:22] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:04:22] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:22] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:04:22] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:04:23] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:23] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:04:23] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:04:23] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:04:23] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:24] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:04:24] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:24] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:04:24] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:24] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:04:24] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:25] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:25] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:04:25] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:04:25] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:25] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:04:25] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:04:25] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:25] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:25] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:25] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:25] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:25] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:26] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:26] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:26] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:26] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:04:26] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:04:26] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:04:26] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:26] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:04:26] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:26] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:04:26] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:27] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:04:27] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:27] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:04:27] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:27] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:04:27] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:29] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:122]: NEW 3
+[18:04:29] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:131]: NEW 4
+[18:04:29] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:122]: NEW 3
+[18:04:29] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:131]: NEW 4
+[18:04:31] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:31] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:31] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:31] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:31] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:32] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:32] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=74}
+[18:04:32] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:32] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=74}
+[18:04:32] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:32] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=74}
+[18:04:32] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:32] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=75}
+[18:04:32] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=73}
+[18:04:33] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:33] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=75}
+[18:04:33] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=73}
+[18:04:33] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:33] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=75}
+[18:04:33] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=73}
+[18:04:33] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:33] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=75}
+[18:04:33] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=73}
+[18:04:33] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:33] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=74}
+[18:04:33] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:33] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=74}
+[18:04:34] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:34] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=74}
+[18:04:34] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:34] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=74}
+[18:04:34] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:34] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=74}
+[18:04:34] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:34] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=74}
+[18:04:34] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:34] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=74}
+[18:04:34] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:34] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=74}
+[18:04:35] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:35] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=74}
+[18:04:35] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:35] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=74}
+[18:04:36] [Client thread/INFO]: [CHAT] Energy Stored: 12671 E
+[18:04:36] [Client thread/INFO]: [CHAT] Energy Stored: 12796 E
+[18:04:36] [Client thread/INFO]: [CHAT] Energy Stored: 12896 E
+[18:04:36] [Client thread/INFO]: [CHAT] Energy Stored: 12996 E
+[18:04:36] [Client thread/INFO]: [CHAT] Energy Stored: 13096 E
+[18:04:37] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:37] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=74}
+[18:04:37] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:37] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=74}
+[18:04:37] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:37] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=74}
+[18:04:37] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:37] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=74}
+[18:04:37] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:37] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=74}
+[18:04:38] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:38] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=74}
+[18:04:38] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:38] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=74}
+[18:04:38] [Client thread/INFO]: [CHAT] Energy Stored: 13896 E
+[18:04:38] [Client thread/INFO]: [CHAT] Energy Stored: 13996 E
+[18:04:38] [Client thread/INFO]: [CHAT] Energy Stored: 14071 E
+[18:04:39] [Client thread/INFO]: [CHAT] Energy Stored: 14171 E
+[18:04:39] [Client thread/INFO]: [CHAT] Energy Stored: 14271 E
+[18:04:39] [Client thread/INFO]: [CHAT] Energy Stored: 14371 E
+[18:04:39] [Client thread/INFO]: [CHAT] Energy Stored: 14471 E
+[18:04:39] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:04:39] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:40] [Server thread/ERROR]: A TileEntity type com.jtmnf.advancedindustry.tileentities.SimpleGeneratorTile has throw an exception trying to write state. It will not persist. Report this to the mod author
+java.lang.NullPointerException
+	at com.jtmnf.advancedindustry.tileentities.SimpleGeneratorTile.writeToNBT(SimpleGeneratorTile.java:191) ~[SimpleGeneratorTile.class:?]
+	at net.minecraft.world.chunk.storage.AnvilChunkLoader.writeChunkToNBT(AnvilChunkLoader.java:393) [AnvilChunkLoader.class:?]
+	at net.minecraft.world.chunk.storage.AnvilChunkLoader.saveChunk(AnvilChunkLoader.java:172) [AnvilChunkLoader.class:?]
+	at net.minecraft.world.gen.ChunkProviderServer.saveChunkData(ChunkProviderServer.java:257) [ChunkProviderServer.class:?]
+	at net.minecraft.world.gen.ChunkProviderServer.saveChunks(ChunkProviderServer.java:324) [ChunkProviderServer.class:?]
+	at net.minecraft.world.WorldServer.saveAllChunks(WorldServer.java:944) [WorldServer.class:?]
+	at net.minecraft.server.MinecraftServer.saveAllWorlds(MinecraftServer.java:427) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:704) [MinecraftServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:159) [IntegratedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:548) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[18:04:40] [Server thread/ERROR]: A TileEntity type com.jtmnf.advancedindustry.tileentities.SimpleGeneratorTile has throw an exception trying to write state. It will not persist. Report this to the mod author
+java.lang.NullPointerException
+	at com.jtmnf.advancedindustry.tileentities.SimpleGeneratorTile.writeToNBT(SimpleGeneratorTile.java:191) ~[SimpleGeneratorTile.class:?]
+	at net.minecraft.world.chunk.storage.AnvilChunkLoader.writeChunkToNBT(AnvilChunkLoader.java:393) [AnvilChunkLoader.class:?]
+	at net.minecraft.world.chunk.storage.AnvilChunkLoader.saveChunk(AnvilChunkLoader.java:172) [AnvilChunkLoader.class:?]
+	at net.minecraft.world.gen.ChunkProviderServer.saveChunkData(ChunkProviderServer.java:257) [ChunkProviderServer.class:?]
+	at net.minecraft.world.gen.ChunkProviderServer.saveChunks(ChunkProviderServer.java:324) [ChunkProviderServer.class:?]
+	at net.minecraft.world.WorldServer.saveAllChunks(WorldServer.java:944) [WorldServer.class:?]
+	at net.minecraft.server.MinecraftServer.saveAllWorlds(MinecraftServer.java:427) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:704) [MinecraftServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:159) [IntegratedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:548) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[18:04:40] [Server thread/ERROR]: A TileEntity type com.jtmnf.advancedindustry.tileentities.SimpleGeneratorTile has throw an exception trying to write state. It will not persist. Report this to the mod author
+java.lang.NullPointerException
+	at com.jtmnf.advancedindustry.tileentities.SimpleGeneratorTile.writeToNBT(SimpleGeneratorTile.java:191) ~[SimpleGeneratorTile.class:?]
+	at net.minecraft.world.chunk.storage.AnvilChunkLoader.writeChunkToNBT(AnvilChunkLoader.java:393) [AnvilChunkLoader.class:?]
+	at net.minecraft.world.chunk.storage.AnvilChunkLoader.saveChunk(AnvilChunkLoader.java:172) [AnvilChunkLoader.class:?]
+	at net.minecraft.world.gen.ChunkProviderServer.saveChunkData(ChunkProviderServer.java:257) [ChunkProviderServer.class:?]
+	at net.minecraft.world.gen.ChunkProviderServer.saveChunks(ChunkProviderServer.java:324) [ChunkProviderServer.class:?]
+	at net.minecraft.world.WorldServer.saveAllChunks(WorldServer.java:944) [WorldServer.class:?]
+	at net.minecraft.server.MinecraftServer.saveAllWorlds(MinecraftServer.java:427) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:704) [MinecraftServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:159) [IntegratedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:548) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[18:04:40] [Server thread/ERROR]: A TileEntity type com.jtmnf.advancedindustry.tileentities.SimpleGeneratorTile has throw an exception trying to write state. It will not persist. Report this to the mod author
+java.lang.NullPointerException
+	at com.jtmnf.advancedindustry.tileentities.SimpleGeneratorTile.writeToNBT(SimpleGeneratorTile.java:191) ~[SimpleGeneratorTile.class:?]
+	at net.minecraft.world.chunk.storage.AnvilChunkLoader.writeChunkToNBT(AnvilChunkLoader.java:393) [AnvilChunkLoader.class:?]
+	at net.minecraft.world.chunk.storage.AnvilChunkLoader.saveChunk(AnvilChunkLoader.java:172) [AnvilChunkLoader.class:?]
+	at net.minecraft.world.gen.ChunkProviderServer.saveChunkData(ChunkProviderServer.java:257) [ChunkProviderServer.class:?]
+	at net.minecraft.world.gen.ChunkProviderServer.saveChunks(ChunkProviderServer.java:324) [ChunkProviderServer.class:?]
+	at net.minecraft.world.WorldServer.saveAllChunks(WorldServer.java:944) [WorldServer.class:?]
+	at net.minecraft.server.MinecraftServer.saveAllWorlds(MinecraftServer.java:427) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:704) [MinecraftServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:159) [IntegratedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:548) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[18:04:40] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:04:40] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:40] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:04:40] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:40] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:04:40] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:40] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:04:40] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:40] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:04:40] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:41] [Client thread/INFO]: [CHAT] Energy Stored: 15171 E
+[18:04:41] [Client thread/INFO]: [CHAT] Energy Stored: 15271 E
+[18:04:41] [Client thread/INFO]: [CHAT] Energy Stored: 15396 E
+[18:04:41] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:04:41] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:41] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:04:41] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:42] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:04:42] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:42] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:04:42] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:42] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:04:42] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:42] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:04:42] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:42] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:04:42] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:43] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:04:43] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:43] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:04:43] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:43] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:43] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:04:43] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:04:43] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:43] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:04:43] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:04:43] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:43] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:04:43] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:04:44] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:44] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:04:44] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:04:44] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:44] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:04:44] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:04:45] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:04:45] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:45] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:04:45] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:46] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:04:46] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:46] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:04:46] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:46] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:04:46] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:46] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:04:46] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:46] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:46] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:04:46] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:04:47] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:04:47] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:48] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:48] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:04:48] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:04:48] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:04:48] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:49] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:49] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:04:49] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:04:49] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:49] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:50] [Client thread/INFO]: [CHAT] Energy Stored: 46136 E
+[18:04:50] [Client thread/INFO]: [CHAT] Energy Stored: 46136 E
+[18:04:51] [Client thread/INFO]: [CHAT] Energy Stored: 46136 E
+[18:04:51] [Client thread/INFO]: [CHAT] Energy Stored: 46136 E
+[18:04:51] [Client thread/INFO]: [CHAT] Energy Stored: 46136 E
+[18:04:51] [Client thread/INFO]: [CHAT] Energy Stored: 46136 E
+[18:04:52] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:update:72]: Why?
+[18:04:52] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:122]: NEW 3
+[18:04:52] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:52] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:04:53] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:53] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:04:53] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:53] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:04:53] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:53] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:04:54] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:54] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:04:54] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:131]: NEW 4
+[18:04:54] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:122]: NEW 3
+[18:04:54] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:54] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:54] [Client thread/INFO]: [CHAT] Energy Stored: 46136 E
+[18:04:55] [Client thread/INFO]: [CHAT] Energy Stored: 46136 E
+[18:04:55] [Client thread/INFO]: [CHAT] Energy Stored: 46136 E
+[18:04:55] [Client thread/INFO]: [CHAT] Energy Stored: 46136 E
+[18:04:55] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:55] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:55] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:55] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:04:55] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:04:56] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:56] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:04:56] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:04:56] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:04:56] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:56] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:update:72]: Why?
+[18:04:56] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:update:72]: Why?
+[18:04:57] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:131]: NEW 4
+[18:04:57] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:122]: NEW 3
+[18:04:57] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:122]: NEW 3
+[18:04:57] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:131]: NEW 4
+[18:04:58] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:58] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:04:58] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:04:58] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:58] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:04:58] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:04:58] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:58] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:58] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:04:58] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:04:58] [Client thread/INFO]: [CHAT] Energy Stored: 46136 E
+[18:04:59] [Client thread/INFO]: [CHAT] Energy Stored: 46136 E
+[18:04:59] [Client thread/INFO]: [CHAT] Energy Stored: 46136 E
+[18:04:59] [Client thread/INFO]: [CHAT] Energy Stored: 46136 E
+[18:04:59] [Client thread/INFO]: [CHAT] Energy Stored: 46136 E
+[18:04:59] [Client thread/INFO]: [CHAT] Energy Stored: 46136 E
+[18:05:00] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:update:72]: Why?
+[18:05:00] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:122]: NEW 3
+[18:05:00] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:update:72]: Why?
+[18:05:01] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:131]: NEW 4
+[18:05:01] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:122]: NEW 3
+[18:05:01] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:131]: NEW 4
+[18:05:01] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:122]: NEW 3
+[18:05:01] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:01] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:05:02] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:02] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:05:02] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:05:03] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:03] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:05:03] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:05:03] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:03] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:05:03] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:05:03] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:03] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:05:03] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:05:04] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:04] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:05:04] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:04] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:05:04] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:04] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:05:04] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:04] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:05:04] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:04] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:05:04] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:05:05] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:05] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:05:05] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:05:05] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:05:05] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:05:06] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:update:72]: Why?
+[18:05:06] [Client thread/INFO]: [CHAT] Energy Stored: 29050 E
+[18:05:07] [Client thread/INFO]: [CHAT] Energy Stored: 27146 E
+[18:05:07] [Client thread/INFO]: [CHAT] Energy Stored: 27246 E
+[18:05:07] [Client thread/INFO]: [CHAT] Energy Stored: 27346 E
+[18:05:07] [Client thread/INFO]: [CHAT] Energy Stored: 27446 E
+[18:05:07] [Client thread/INFO]: [CHAT] Energy Stored: 27546 E
+[18:05:08] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:05:08] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=74}
+[18:05:08] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:05:08] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=74}
+[18:05:08] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:05:08] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=74}
+[18:05:09] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:09] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=75}
+[18:05:09] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=73}
+[18:05:09] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:09] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=75}
+[18:05:09] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=73}
+[18:05:09] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:09] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=75}
+[18:05:09] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=73}
+[18:05:09] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:09] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=75}
+[18:05:09] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=73}
+[18:05:09] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:09] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=74}
+[18:05:10] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:10] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=74}
+[18:05:16] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:update:72]: Why?
+[18:05:18] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:122]: NEW 3
+[18:05:18] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:131]: NEW 4
+[18:05:18] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:18] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:149]: NEW 6
+[18:05:18] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:140]: NEW 5
+[18:05:18] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:05:18] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:05:19] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:update:72]: Why?
+[18:05:19] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:131]: NEW 4
+[18:05:20] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:05:20] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:05:21] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:update:72]: Why?
+[18:05:22] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:122]: NEW 3
+[18:05:22] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:131]: NEW 4
+[18:05:22] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:23] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:update:72]: Why?
+[18:05:24] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:122]: NEW 3
+[18:05:24] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:131]: NEW 4
+[18:05:24] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:24] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:122]: NEW 3
+[18:05:24] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:131]: NEW 4
+[18:05:24] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:24] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:05:25] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:05:25] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:05:25] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:05:25] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:05:25] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:05:25] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:05:25] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:25] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:05:25] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:05:26] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:26] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:05:26] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:05:26] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:26] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:05:26] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:05:26] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:26] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:05:26] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:05:26] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:26] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:05:26] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:26] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:05:27] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:27] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:05:27] [Client thread/INFO]: [CHAT] Energy Stored: 46136 E
+[18:05:27] [Client thread/INFO]: [CHAT] Energy Stored: 46136 E
+[18:05:27] [Client thread/INFO]: [CHAT] Energy Stored: 46136 E
+[18:05:27] [Client thread/INFO]: [CHAT] Energy Stored: 46136 E
+[18:05:28] [Client thread/INFO]: [CHAT] Energy Stored: 46136 E
+[18:05:28] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:28] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:05:28] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:28] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:05:28] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=77}
+[18:05:29] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:update:72]: Why?
+[18:05:30] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:122]: NEW 3
+[18:05:30] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:131]: NEW 4
+[18:05:31] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:31] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:05:32] [Server thread/INFO]: Player259 has just earned the achievement [Taking Inventory]
+[18:05:32] [Client thread/INFO]: [CHAT] Player259 has just earned the achievement [Taking Inventory]
+[18:05:35] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:35] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:05:35] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:35] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:05:36] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:36] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:05:36] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:36] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:05:36] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:36] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:05:36] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:36] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:05:36] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:36] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:05:36] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:36] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:05:37] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:37] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:05:39] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:05:40] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:05:40] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:05:41] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:131]: NEW 4
+[18:05:41] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:122]: NEW 3
+[18:05:41] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:41] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=76}
+[18:05:41] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:41] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=76}
+[18:05:42] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:42] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=76}
+[18:05:42] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:42] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=76}
+[18:05:43] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:113]: NEW 2
+[18:05:43] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:131]: NEW 4
+[18:05:43] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:104]: NEW 1
+[18:05:43] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:122]: NEW 3
+[18:05:44] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:44] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:05:44] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=77}
+[18:05:44] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:44] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:05:44] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=77}
+[18:05:44] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:44] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:05:44] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=77}
+[18:05:44] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:44] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:05:45] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:45] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:05:45] [Client thread/INFO]: [CHAT] Energy Stored: 46136 E
+[18:05:45] [Client thread/INFO]: [CHAT] Energy Stored: 46136 E
+[18:05:45] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:45] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:05:46] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:46] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:05:46] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=77}
+[18:05:46] [Client thread/INFO]: [CHAT] Energy Stored: 41271 E
+[18:05:46] [Client thread/INFO]: [CHAT] Energy Stored: 41371 E
+[18:05:46] [Client thread/INFO]: [CHAT] Energy Stored: 41471 E
+[18:05:46] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:05:46] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=77}
+[18:05:47] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:05:47] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=77}
+[18:05:47] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:05:47] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=77}
+[18:05:47] [Client thread/INFO]: [CHAT] Energy Stored: 41871 E
+[18:05:47] [Client thread/INFO]: [CHAT] Energy Stored: 41971 E
+[18:05:47] [Client thread/INFO]: [CHAT] Energy Stored: 42071 E
+[18:05:48] [Client thread/INFO]: [CHAT] Energy Stored: 42171 E
+[18:05:48] [Client thread/INFO]: [CHAT] Energy Stored: 42271 E
+[18:05:48] [Client thread/INFO]: [CHAT] Energy Stored: 42371 E
+[18:05:51] [Client thread/INFO]: [CHAT] Energy Stored: 43721 E
+[18:05:51] [Client thread/INFO]: [CHAT] Energy Stored: 43846 E
+[18:05:51] [Client thread/INFO]: [CHAT] Energy Stored: 43946 E
+[18:05:51] [Client thread/INFO]: [CHAT] Energy Stored: 44046 E
+[18:05:52] [Client thread/INFO]: [CHAT] Energy Stored: 44146 E
+[18:05:52] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:52] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:52] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:52] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:53] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:53] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:05:53] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=78}
+[18:05:53] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:53] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:05:53] [Client thread/INFO]: [CHAT] Energy Stored: 46136 E
+[18:05:53] [Client thread/INFO]: [CHAT] Energy Stored: 46136 E
+[18:05:53] [Client thread/INFO]: [CHAT] Energy Stored: 46136 E
+[18:05:54] [Client thread/INFO]: [CHAT] Energy Stored: 46136 E
+[18:05:54] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:05:54] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=76}
+[18:05:54] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=78}
+[18:05:54] [Client thread/INFO]: [CHAT] Energy Stored: 45421 E
+[18:05:54] [Client thread/INFO]: [CHAT] Energy Stored: 45521 E
+[18:05:55] [Client thread/INFO]: [CHAT] Energy Stored: 45646 E
+[18:05:55] [Client thread/INFO]: [CHAT] Energy Stored: 45746 E
+[18:05:56] [Client thread/INFO]: [CHAT] Energy Stored: 300 E
+[18:05:56] [Client thread/INFO]: [CHAT] Energy Stored: 375 E
+[18:05:56] [Client thread/INFO]: [CHAT] Energy Stored: 475 E
+[18:05:56] [Client thread/INFO]: [CHAT] Energy Stored: 575 E
+[18:05:56] [Client thread/INFO]: [CHAT] Energy Stored: 675 E
+[18:06:00] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:06:00] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:06:00] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=77}
+[18:06:00] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:06:00] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:06:00] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=77}
+[18:06:00] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:06:00] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=78}
+[18:06:00] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=77}
+[18:06:09] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:06:09] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=77}
+[18:06:10] [Client thread/INFO]: [CHAT] Energy Stored: 7275 E
+[18:06:10] [Client thread/INFO]: [CHAT] Energy Stored: 7375 E
+[18:06:10] [Client thread/INFO]: [CHAT] Energy Stored: 7650 E
+[18:06:11] [Client thread/INFO]: [CHAT] Energy Stored: 7800 E
+[18:06:11] [Client thread/INFO]: [CHAT] Energy Stored: 7900 E
+[18:06:11] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:06:11] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-785, y=4, z=77}
+[18:06:12] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:update:72]: Why?
+[18:06:12] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:104]: NEW 1
+[18:06:12] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:update:72]: Why?
+[18:06:12] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:131]: NEW 4
+[18:06:13] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:update:72]: Why?
+[18:06:16] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:131]: NEW 4
+[18:06:16] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:122]: NEW 3
+[18:06:16] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:113]: NEW 2
+[18:06:16] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:104]: NEW 1
+[18:06:16] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:06:17] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:131]: NEW 4
+[18:06:17] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:122]: NEW 3
+[18:06:17] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:122]: NEW 3
+[18:06:17] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:131]: NEW 4
+[18:06:21] [Client thread/INFO]: [CHAT] Energy Stored: 550 E
+[18:06:21] [Client thread/INFO]: [CHAT] Energy Stored: 550 E
+[18:06:21] [Client thread/INFO]: [CHAT] Energy Stored: 550 E
+[18:06:22] [Client thread/INFO]: [CHAT] Energy Stored: 550 E
+[18:06:22] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:06:22] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:22] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:06:22] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:22] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:06:22] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:22] [Client thread/INFO]: [CHAT] Energy Stored: 500 E
+[18:06:22] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:06:22] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:06:23] [Client thread/INFO]: [CHAT] Energy Stored: 500 E
+[18:06:23] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:06:23] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:06:23] [Client thread/INFO]: [CHAT] Energy Stored: 500 E
+[18:06:23] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:06:23] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:06:23] [Client thread/INFO]: [CHAT] Energy Stored: 573 E
+[18:06:23] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:06:23] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:23] [Client thread/INFO]: [CHAT] Energy Stored: 573 E
+[18:06:23] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:06:23] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:23] [Client thread/INFO]: [CHAT] Energy Stored: 573 E
+[18:06:23] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:06:23] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:24] [Client thread/INFO]: [CHAT] Energy Stored: 573 E
+[18:06:24] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:06:24] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:24] [Client thread/INFO]: [CHAT] Energy Stored: 573 E
+[18:06:24] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:06:24] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:24] [Client thread/INFO]: [CHAT] Energy Stored: 500 E
+[18:06:24] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:06:24] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:06:24] [Client thread/INFO]: [CHAT] Energy Stored: 500 E
+[18:06:24] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:06:24] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:06:24] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:06:24] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:25] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:06:25] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:25] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:06:25] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:25] [Client thread/INFO]: [CHAT] Energy Stored: 550 E
+[18:06:25] [Client thread/INFO]: [CHAT] Energy Stored: 550 E
+[18:06:25] [Client thread/INFO]: [CHAT] Energy Stored: 550 E
+[18:06:26] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:06:26] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:26] [Client thread/INFO]: [CHAT] Energy Stored: 573 E
+[18:06:26] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:06:26] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:26] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:06:26] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=76}
+[18:06:26] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:06:27] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:06:27] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:06:27] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:06:27] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:06:27] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:06:27] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=76}
+[18:06:27] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:06:28] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:06:28] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=76}
+[18:06:28] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:06:28] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:06:28] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=76}
+[18:06:28] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:06:28] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:06:28] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=76}
+[18:06:28] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:06:28] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:06:28] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=76}
+[18:06:28] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:06:28] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:06:28] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=76}
+[18:06:28] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:06:29] [Client thread/INFO]: [CHAT] Energy Stored: 573 E
+[18:06:29] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:06:29] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:29] [Client thread/INFO]: [CHAT] Energy Stored: 573 E
+[18:06:29] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:06:29] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:29] [Client thread/INFO]: [CHAT] Energy Stored: 573 E
+[18:06:29] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:06:29] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:29] [Client thread/INFO]: [CHAT] Energy Stored: 573 E
+[18:06:29] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:06:29] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:30] [Client thread/INFO]: [CHAT] Energy Stored: 573 E
+[18:06:30] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:06:30] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:30] [Client thread/INFO]: [CHAT] Energy Stored: 573 E
+[18:06:30] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:06:30] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:30] [Client thread/INFO]: [CHAT] Energy Stored: 573 E
+[18:06:30] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:06:30] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:31] [Client thread/INFO]: [CHAT] Energy Stored: 573 E
+[18:06:31] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:06:31] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:31] [Client thread/INFO]: [CHAT] Energy Stored: 573 E
+[18:06:31] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:06:31] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:31] [Client thread/INFO]: [CHAT] Energy Stored: 500 E
+[18:06:31] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:06:31] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:06:31] [Client thread/INFO]: [CHAT] Energy Stored: 500 E
+[18:06:31] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:06:31] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:06:31] [Client thread/INFO]: [CHAT] Energy Stored: 500 E
+[18:06:31] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:06:31] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:06:32] [Client thread/INFO]: [CHAT] Energy Stored: 500 E
+[18:06:32] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:06:32] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:06:32] [Client thread/INFO]: [CHAT] Energy Stored: 500 E
+[18:06:32] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:06:32] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:06:32] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:06:32] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:32] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:06:32] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:32] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:06:32] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:33] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:06:33] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:33] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:06:33] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:33] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:06:33] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:33] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:06:33] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:33] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:06:33] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:34] [Client thread/INFO]: [CHAT] Energy Stored: 500 E
+[18:06:34] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:06:34] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:06:34] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:06:34] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:34] [Client thread/INFO]: [CHAT] Energy Stored: 550 E
+[18:06:34] [Client thread/INFO]: [CHAT] Energy Stored: 550 E
+[18:06:34] [Client thread/INFO]: [CHAT] Energy Stored: 550 E
+[18:06:35] [Client thread/INFO]: [CHAT] Energy Stored: 550 E
+[18:06:35] [Client thread/INFO]: [CHAT] Energy Stored: 550 E
+[18:06:35] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:06:35] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:35] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:06:35] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:35] [Client thread/INFO]: [CHAT] Energy Stored: 500 E
+[18:06:35] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:06:35] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:06:36] [Client thread/INFO]: [CHAT] Energy Stored: 573 E
+[18:06:36] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:06:36] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:36] [Client thread/INFO]: [CHAT] Energy Stored: 573 E
+[18:06:36] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:06:36] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:36] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:06:36] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=76}
+[18:06:36] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:06:36] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:06:36] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:06:36] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:06:36] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:06:38] [Client thread/INFO]: [CHAT] Energy Stored: 573 E
+[18:06:38] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:06:38] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:38] [Client thread/INFO]: [CHAT] Energy Stored: 573 E
+[18:06:38] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:06:38] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:39] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:06:39] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:39] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:06:39] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:39] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:06:39] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:39] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:06:39] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:40] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:06:40] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:42] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:104]: NEW 1
+[18:06:42] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:113]: NEW 2
+[18:06:43] [Client thread/INFO]: [CHAT] Energy Stored: 899 E
+[18:06:43] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:43] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:06:43] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:43] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:06:43] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:43] [Client thread/INFO]: [CHAT] Energy Stored: 667 E
+[18:06:43] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:44] [Client thread/INFO]: [CHAT] Energy Stored: 667 E
+[18:06:44] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:44] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:06:44] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:06:44] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:06:44] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-788, y=4, z=79}
+[18:06:44] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:06:44] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:06:44] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:06:44] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-788, y=4, z=79}
+[18:06:44] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:06:44] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:06:44] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:06:44] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-788, y=4, z=79}
+[18:06:45] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:06:45] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:06:45] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:06:45] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-788, y=4, z=79}
+[18:06:45] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:06:45] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:06:45] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:06:45] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-788, y=4, z=79}
+[18:06:45] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:06:45] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:45] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:06:45] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:45] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:06:45] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:46] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:06:46] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:46] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:06:46] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:46] [Client thread/INFO]: [CHAT] Energy Stored: 11206 E
+[18:06:46] [Client thread/INFO]: [CHAT] Energy Stored: 11872 E
+[18:06:46] [Client thread/INFO]: [CHAT] Energy Stored: 12871 E
+[18:06:47] [Client thread/INFO]: [CHAT] Energy Stored: 13870 E
+[18:06:47] [Client thread/INFO]: [CHAT] Energy Stored: 14536 E
+[18:06:47] [Client thread/INFO]: [CHAT] Energy Stored: 15535 E
+[18:06:47] [Client thread/INFO]: [CHAT] Energy Stored: 16201 E
+[18:06:47] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:06:47] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:48] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:06:48] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:48] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:06:48] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:48] [Client thread/INFO]: [CHAT] Energy Stored: 186 E
+[18:06:48] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:06:48] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:48] [Client thread/INFO]: [CHAT] Energy Stored: 520 E
+[18:06:48] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:06:48] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:48] [Client thread/INFO]: [CHAT] Energy Stored: 854 E
+[18:06:48] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:06:48] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:49] [Client thread/INFO]: [CHAT] Energy Stored: 688 E
+[18:06:49] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:06:49] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:49] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:06:49] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=76}
+[18:06:49] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:06:49] [Client thread/INFO]: [CHAT] Energy Stored: 500 E
+[18:06:49] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:06:49] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:06:49] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:06:49] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:06:49] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:06:50] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:06:50] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:06:50] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:06:50] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:06:50] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:06:50] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:06:50] [Client thread/INFO]: [CHAT] Energy Stored: 500 E
+[18:06:50] [Client thread/INFO]: [CHAT] Energy Stored: 600 E
+[18:06:51] [Client thread/INFO]: [CHAT] Energy Stored: 700 E
+[18:06:51] [Client thread/INFO]: [CHAT] Energy Stored: 800 E
+[18:06:51] [Client thread/INFO]: [CHAT] Energy Stored: 900 E
+[18:06:51] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:06:51] [Client thread/INFO]: [CHAT] Energy Stored: 1100 E
+[18:06:52] [Client thread/INFO]: [CHAT] Energy Stored: 1225 E
+[18:06:52] [Client thread/INFO]: [CHAT] Energy Stored: 1325 E
+[18:06:52] [Client thread/INFO]: [CHAT] Energy Stored: 1400 E
+[18:06:52] [Client thread/INFO]: [CHAT] Energy Stored: 1500 E
+[18:06:52] [Client thread/INFO]: [CHAT] Energy Stored: 1600 E
+[18:06:53] [Client thread/INFO]: [CHAT] Energy Stored: 1725 E
+[18:06:53] [Client thread/INFO]: [CHAT] Energy Stored: 1825 E
+[18:06:53] [Client thread/INFO]: [CHAT] Energy Stored: 591 E
+[18:06:53] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=76}
+[18:06:53] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:06:53] [Client thread/INFO]: [CHAT] Energy Stored: 591 E
+[18:06:53] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=76}
+[18:06:53] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:06:53] [Client thread/INFO]: [CHAT] Energy Stored: 591 E
+[18:06:53] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=76}
+[18:06:53] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:06:54] [Client thread/INFO]: [CHAT] Energy Stored: 591 E
+[18:06:54] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=76}
+[18:06:54] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:06:54] [Client thread/INFO]: [CHAT] Energy Stored: 591 E
+[18:06:54] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=76}
+[18:06:54] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:06:54] [Client thread/INFO]: [CHAT] Energy Stored: 591 E
+[18:06:54] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=76}
+[18:06:54] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:06:54] [Client thread/INFO]: [CHAT] Energy Stored: 591 E
+[18:06:54] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=76}
+[18:06:54] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:06:54] [Client thread/INFO]: [CHAT] Energy Stored: 357 E
+[18:06:54] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:06:54] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:55] [Client thread/INFO]: [CHAT] Energy Stored: 23860 E
+[18:06:55] [Client thread/INFO]: [CHAT] Energy Stored: 23860 E
+[18:06:55] [Client thread/INFO]: [CHAT] Energy Stored: 23860 E
+[18:06:55] [Client thread/INFO]: [CHAT] Energy Stored: 23860 E
+[18:06:56] [Client thread/INFO]: [CHAT] Energy Stored: 23860 E
+[18:06:56] [Client thread/INFO]: [CHAT] Energy Stored: 23860 E
+[18:06:56] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:06:56] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:56] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:06:56] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:56] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:06:56] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:57] [Client thread/INFO]: [CHAT] Energy Stored: 0 E
+[18:06:57] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:57] [Client thread/INFO]: [CHAT] Energy Stored: 667 E
+[18:06:57] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:57] [Client thread/INFO]: [CHAT] Energy Stored: 667 E
+[18:06:57] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:57] [Client thread/INFO]: [CHAT] Energy Stored: 667 E
+[18:06:57] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:57] [Client thread/INFO]: [CHAT] Energy Stored: 667 E
+[18:06:57] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:06:58] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:update:72]: Why?
+[18:06:58] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:113]: NEW 2
+[18:06:58] [Server thread/INFO]: [com.jtmnf.advancedindustry.tileentities.WireCableTile:updateArray:122]: NEW 3
+[18:06:59] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:06:59] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-786, y=4, z=79}
+[18:06:59] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:06:59] [Client thread/INFO]: [CHAT] Energy Stored: 591 E
+[18:06:59] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=76}
+[18:06:59] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:06:59] [Client thread/INFO]: [CHAT] Energy Stored: 591 E
+[18:06:59] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=76}
+[18:06:59] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:06:59] [Client thread/INFO]: [CHAT] Energy Stored: 591 E
+[18:06:59] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=76}
+[18:06:59] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:06:59] [Client thread/INFO]: [CHAT] Energy Stored: 591 E
+[18:06:59] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=76}
+[18:06:59] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:07:00] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:07:00] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:07:00] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:07:00] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:07:00] [Client thread/INFO]: [CHAT] Energy Stored: 1000 E
+[18:07:00] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:07:00] [Client thread/INFO]: [CHAT] Energy Stored: 591 E
+[18:07:00] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=76}
+[18:07:00] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:07:01] [Client thread/INFO]: [CHAT] Energy Stored: 591 E
+[18:07:01] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=76}
+[18:07:01] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:07:01] [Client thread/INFO]: [CHAT] Energy Stored: 591 E
+[18:07:01] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=76}
+[18:07:01] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:07:01] [Client thread/INFO]: [CHAT] Energy Stored: 591 E
+[18:07:01] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=76}
+[18:07:01] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:07:01] [Client thread/INFO]: [CHAT] Energy Stored: 591 E
+[18:07:01] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=76}
+[18:07:01] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:07:02] [Client thread/INFO]: [CHAT] Energy Stored: 591 E
+[18:07:02] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=76}
+[18:07:02] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:07:02] [Client thread/INFO]: [CHAT] Energy Stored: 357 E
+[18:07:02] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:07:02] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:07:02] [Client thread/INFO]: [CHAT] Energy Stored: 357 E
+[18:07:02] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:07:02] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:07:02] [Client thread/INFO]: [CHAT] Energy Stored: 357 E
+[18:07:02] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:07:02] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:07:02] [Client thread/INFO]: [CHAT] Energy Stored: 357 E
+[18:07:02] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=77}
+[18:07:02] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=79}
+[18:07:02] [Client thread/INFO]: [CHAT] Energy Stored: 591 E
+[18:07:02] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=76}
+[18:07:02] [Client thread/INFO]: [CHAT] Connected to: BlockPos{x=-787, y=4, z=78}
+[18:07:05] [Client thread/INFO]: Stopping!
+[18:07:05] [Client thread/INFO]: SoundSystem shutting down...
+[18:07:05] [Server thread/INFO]: Stopping server
+[18:07:05] [Server thread/INFO]: Saving players
+[18:07:05] [Server thread/INFO]: Saving worlds
+[18:07:05] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[18:07:05] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[18:07:05] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[18:07:05] [Server thread/INFO]: Unloading dimension 0
+[18:07:05] [Server thread/INFO]: Unloading dimension -1
+[18:07:05] [Server thread/INFO]: Unloading dimension 1
+[18:07:05] [Server thread/INFO]: Applying holder lookups
+[18:07:05] [Server thread/INFO]: Holder lookups applied
+[18:07:05] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
